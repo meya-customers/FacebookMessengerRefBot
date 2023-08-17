@@ -1,0 +1,7 @@
+triggers:
+  - keyword: reset
+    when: true
+
+steps:
+  - mode: bot
+  - say: Bot is active.

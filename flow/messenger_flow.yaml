@@ -1,0 +1,13 @@
+triggers:
+  - lifecycle_id: get_started
+
+steps:
+  - flow_set:
+      ref: (@ flow.event.data.text )
+  - say: Welcome! ref = (@ flow.ref )
+  # pause bot for manychat ref
+  - if: (@ flow.ref == "manychat" )
+    then: next
+    else: end
+  # by default only "mode: bot" will trigger the bot
+  - mode: manychat
