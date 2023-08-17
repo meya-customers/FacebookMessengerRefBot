@@ -2,6 +2,8 @@
 
 This is an example bot that that uses a custom lifecycle event to "silence" the bot for specific Facebook Messenger ref links.
 
+https://www.loom.com/share/0750fb250b6a4155b07398ff72a8a159
+
 ## Resources
 - https://developers.facebook.com/docs/messenger-platform/discovery/m-me-links/
 - https://developers.facebook.com/docs/messenger-platform/discovery/welcome-screen
